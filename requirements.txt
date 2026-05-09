@@ -1,0 +1,18 @@
+# Core dependencies for the CSC 594 AI Ethics audit.
+# Versions pinned to what was actually used to produce the executed snapshot.
+# Tested with Python 3.12.
+
+aif360==0.6.1               # Source of MEPS Panel 19 dataset and preprocessing recipe
+fairlearn==0.13.0           # MetricFrame, DP/EO metrics, ThresholdOptimizer, ExponentiatedGradient
+shap==0.51.0                # TreeExplainer for global + dependence + force plots
+scikit-learn==1.8.0         # GradientBoostingClassifier, train/test split, sklearn metrics
+pandas==3.0.1
+numpy==2.4.3
+matplotlib==3.10.8
+seaborn==0.13.2
+
+# Notebook tooling
+nbformat==5.10.4
+nbconvert==7.17.0
+ipykernel==7.2.0
+

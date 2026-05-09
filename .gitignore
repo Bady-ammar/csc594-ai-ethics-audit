@@ -1,0 +1,26 @@
+# Python venv (contains the MEPS dataset at 647 MB; install fresh per README)
+venv/
+
+# Python caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+._*           # macOS AppleDouble metadata files
+.vscode/
+.idea/
+*.swp
+
+# Course-issued PDFs (not authored by us; available via Blackboard)
+CSC594-Course-Project-Call-For-Proposal.pdf
+CSC594-Course-Project-Final-Report-Guidelines.pdf
+
+# Internal Claude Code metadata
+CLAUDE.md
